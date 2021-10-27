@@ -1,0 +1,158 @@
+.header {
+  text-align: center;
+  background-color: lightslategrey;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input {
+  text-align: center;
+  border: 1px solid lightgray;
+  padding: 15px;
+}
+.prihodi,
+.rashodi p {
+  font-size: 25px;
+}
+
+.prihodi {
+  float: left;
+  
+  text-align: left;
+  width: 35%;
+  margin-left: 15%;
+}
+.prihodi p {
+  color:#28b9b5;
+}
+
+.rashodi {
+  float: right;
+  text-align: left;
+  width: 35%;
+  margin-right: 15%;
+}
+.rashodi p {
+  color: #ff5049;
+}
+
+input[type="number"] {
+  width: 80px;
+}
+input[type="text"] {
+  width: 300px;
+}
+
+input,
+select {
+  height: 30px;
+}
+
+select {
+  height: 35px;
+}
+
+.prihodout {
+  background-color: #28b9b5;
+  margin-bottom: 10px;
+}
+.rashodout {
+  background-color: #ff5049;
+  margin-bottom: 20px;
+}
+
+.prihodout,
+.rashodout {
+  text-transform: uppercase;
+  padding: 12px;
+  letter-spacing: 1px;
+  width: 280px;
+  margin-left: 39%;
+  text-align: left;
+}
+.dostupan-budzet {
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  color: antiquewhite;
+  font-size: 25px;
+}
+
+#dostupan-budzet {
+  font-size: 45px;
+}
+
+#prihod {
+  color: white;
+  margin-left: 98px;
+}
+#rashod {
+  color: white;
+  margin-left: 79px;
+}
+
+.spanProcenat {
+  
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border-radius: 3px;
+ 
+}
+
+.spanProc {
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ff5049;
+}
+
+#btnDodaj, .btnDelRa {
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+	border-radius:42px;
+	border:2px solid #ff5049;
+	display:inline-block;
+	cursor:pointer;
+	color:#ff5049;
+	font-family:Georgia;
+	font-size:16px;
+	font-weight:bold;
+	padding:7px 11px;
+	text-decoration:none;
+	text-shadow:-1px 1px 0px #ffffff;
+  margin-left: 10px;
+}
+#btnDodaj, .btnDelRa:hover {
+  background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+}
+#btnDodaj, .btnDelRa:active {
+	position:relative;
+	top:1px;
+}
+
+.btnDelPr {
+  background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+	border-radius:42px;
+	border:2px solid #28b9b5;
+	display:inline-block;
+	cursor:pointer;
+	color:#28b9b5;
+	font-family:Georgia;
+	font-size:16px;
+	font-weight:bold;
+	padding:7px 11px;
+	text-decoration:none;
+	text-shadow:-1px 1px 0px #ffffff;
+  margin-left: 10px;
+}
+
+.btnDelPr:hover {
+  background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+}
+.btnDelPr:active {
+	position:relative;
+	top:1px;
+}

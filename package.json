@@ -1,0 +1,16 @@
+{
+  "name": "budget-calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://DanielS4323.github.io/budget_calculator",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

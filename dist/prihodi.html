@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+   
+
+    
+    <div class="header">
+        <div class="dostupan-budzet">Dostupan budzet
+     <br>
+     <br>
+        <output id="dostupan-budzet"></output>
+    </div>
+        
+        <div class="prihodout">Prihod <output id="prihod"></output></div>
+
+        <div class="rashodout">Rashod <output id="rashod"></output></div>
+    </div>
+    <div class="input">
+        <select  id="prihod-rashod">
+            <option value="">-</option>
+            <option value="prihod">Prihod</option>
+            <option value="rashod">Rashod</option>
+        </select>
+        <input id="opis" type="text" placeholder="Opis">
+        <input id="cifra" type="number" placeholder="Iznos">
+        <button id="btnDodaj">&#10004;</button>
+    </div>
+    <br>
+    <br>
+    <div class="prihodi">
+        <p>Prihod</p>
+    </div>
+    <div class="rashodi">
+        <p>Rashod</p>
+    </div>
+    <script type="module" src='module.js'></script>
+</body>
+</html>
